@@ -9,4 +9,4 @@ Note: This is a review of the foundations and applicability of the research I wo
 Liu, Y. At the dawn: cell-free DNA fragmentomics and gene regulation. *Br J Cancer* **126,**
 379–390 (2022). https://doi.org/10.1038/s41416-021-01635-z
 
-Zhou, X., Zheng, H., Fu, H., Dillehay McKillip, K. L., Pinney, S. M., & Liu, Y. (2020). CRAG: De novo characterization of cell-free DNA fragmentation hotspots in plasma whole-genome sequencing. Cold Spring Harbor Laboratory. [https://doi.org/10.1101/2020.07.16.201350](https://doi.org/10.1101/2020.07.16.201350)
+Zhou, X., Zheng, H., Fu, H., Dillehay McKillip, K. L., Pinney, S. M., & Liu, Y. (2020). CRAG: De novo characterization of cell-free DNA fragmentation hotspots in plasma whole-genome sequencing. Cold Spring Harbor Laboratory. https://doi.org/10.1101/2020.07.16.201350
