@@ -35,6 +35,10 @@ p {
   line-height: 1.5;
 }
 
+h1 {
+   margin-top: 0px;
+}
+
 .graphic {
   width: 400px;
   height: 314px;
