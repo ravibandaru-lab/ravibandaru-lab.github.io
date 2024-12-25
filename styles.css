@@ -1,0 +1,82 @@
+body {
+  font-family: "Lato", serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0;
+  background-color: #201c24;
+  color: #fff;
+  text-align: center;
+}
+
+header {
+  background-color: #201c24;
+  padding: 1rem;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #a4d131;
+}
+
+.intro {
+  margin: 40px auto 0px;
+  padding: 0px;
+}
+
+p {
+  width: 40ch;
+  text-align: center;
+  margin: 0 auto; 
+  line-height: 1.5;
+}
+
+.graphic {
+  width: 400px;
+  height: 314px;
+  margin: 20px auto 0px; 
+  background-image: url('img/fractree.gif'); 
+  background-size: cover;
+}
+
+.social-icons img {
+  width: 30px;
+  margin: 10px;
+  transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  width: 180px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 1;
+  top: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
