@@ -3,18 +3,18 @@ body {
   font-weight: 300;
   font-style: normal;
   margin: 0;
-  background-color: #201c24;
-  color: #fff;
+  background-color: #EDE8DO;
+  color: #201c24;
   text-align: center;
 }
 
 header {
-  background-color: #201c24;
+  background-color: #EDE8DO;
   padding: 1rem;
 }
 
 nav a {
-  color: #fff;
+  color: #201c24;
   margin: 0 15px;
   text-decoration: none;
 }
