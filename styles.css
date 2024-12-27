@@ -41,10 +41,8 @@ h1 {
 
 .graphic {
   width: 400px;
-  height: 314px;
+  height: 400px;
   margin: 20px auto 0px; 
-  background-image: url('img/fractree.gif'); 
-  background-size: cover;
 }
 
 .social-icons img {
