@@ -6,7 +6,7 @@
     "journal_logo": "img/journals/jci.jpg",
     "year": 2026,
     "status": "published",
-    "citations": null,
+    "citations": 0,
     "first_author": true,
     "doi": "10.1172/JCI196284",
     "url": "https://doi.org/10.1172/JCI196284"
@@ -18,7 +18,7 @@
     "journal_logo": "img/journals/aacr.png",
     "year": 2025,
     "status": "poster",
-    "citations": null,
+    "citations": 0,
     "first_author": true,
     "doi": "10.1158/1538-7445.AM2025-3674",
     "url": "https://doi.org/10.1158/1538-7445.AM2025-3674"
@@ -30,7 +30,7 @@
     "journal_logo": "img/journals/oup.png",
     "year": 2025,
     "status": "published",
-    "citations": 5,
+    "citations": 3,
     "first_author": true,
     "doi": "10.1093/bioadv/vbaf236",
     "url": "https://doi.org/10.1093/bioadv/vbaf236"
@@ -42,7 +42,7 @@
     "journal_logo": "img/journals/medrxiv.png",
     "year": 2025,
     "status": "preprint",
-    "citations": 2,
+    "citations": 1,
     "first_author": false,
     "doi": "10.1101/2025.02.14.25322180",
     "url": "https://doi.org/10.1101/2025.02.14.25322180"
@@ -54,7 +54,7 @@
     "journal_logo": "img/journals/nature.png",
     "year": 2024,
     "status": "published",
-    "citations": 24,
+    "citations": 13,
     "first_author": false,
     "doi": "10.1038/s41467-024-47196-6",
     "url": "https://doi.org/10.1038/s41467-024-47196-6"
