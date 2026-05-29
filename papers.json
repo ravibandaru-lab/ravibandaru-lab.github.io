@@ -30,7 +30,7 @@
     "journal_logo": "img/journals/oup.png",
     "year": 2025,
     "status": "published",
-    "citations": 3,
+    "citations": 5,
     "first_author": true,
     "doi": "10.1093/bioadv/vbaf236",
     "url": "https://doi.org/10.1093/bioadv/vbaf236"
@@ -42,7 +42,7 @@
     "journal_logo": "img/journals/medrxiv.png",
     "year": 2025,
     "status": "preprint",
-    "citations": 1,
+    "citations": 2,
     "first_author": false,
     "doi": "10.1101/2025.02.14.25322180",
     "url": "https://doi.org/10.1101/2025.02.14.25322180"
@@ -54,7 +54,7 @@
     "journal_logo": "img/journals/nature.png",
     "year": 2024,
     "status": "published",
-    "citations": 13,
+    "citations": 24,
     "first_author": false,
     "doi": "10.1038/s41467-024-47196-6",
     "url": "https://doi.org/10.1038/s41467-024-47196-6"
