@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ravi — papers</title>
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">HOME</a>
+      <a href="papers.html" class="nav-active">PAPERS</a>
+    </nav>
+  </header>
+
+  <main id="papers-page">
+    <div class="papers-container">
+      <div id="papers-list"></div>
+    </div>
+  </main>
+
+  <script>
+    fetch('papers.json')
+      .then(r => r.json())
+      .then(papers => {
+        const container = document.getElementById('papers-list');
+        papers.forEach(p => {
+          const card = document.createElement('div');
+          card.className = 'paper-card';
+
+          const badge = p.first_author
+            ? '<span class="badge badge-first">First Author</span>'
+            : '<span class="badge badge-co">Co-Author</span>';
+
+          const statusLabel = p.status === 'preprint'
+            ? '<span class="status preprint">Preprint</span>'
+            : p.status === 'poster'
+            ? '<span class="status poster">Poster</span>'
+            : '<span class="status published">Published</span>';
+
+          const citations = p.citations !== null
+            ? `<span class="citations">${p.citations} citation${p.citations !== 1 ? 's' : ''}</span>`
+            : '<span class="citations"></span>';
+
+          const authorsFormatted = p.authors.replace(/R Bandaru/g, '<span class="author-highlight">R Bandaru</span>');
+
+          card.innerHTML = `
+            <div class="paper-meta">
+              <div class="meta-left">${badge}${statusLabel}</div>
+              <div class="meta-center"><span class="paper-year">${p.year}</span></div>
+              <div class="meta-right">${citations}</div>
+            </div>
+            <a class="paper-title" href="${p.url}" target="_blank">${p.title}</a>
+            <div class="paper-authors">${authorsFormatted}</div>
+            <div class="paper-journal">
+              <img class="journal-logo" src="${p.journal_logo}" alt="${p.journal}">
+              ${p.journal}
+            </div>
+          `;
+          container.appendChild(card);
+        });
+      });
+  </script>
+</body>
+</html>

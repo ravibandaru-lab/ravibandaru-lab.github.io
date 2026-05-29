@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Genome-wide variation in cell-free DNA end motif entropy predicts immunotherapy response in head and neck cancer",
+    "authors": "R Bandaru, H Fu, H Zheng, J Liang, L Wang, S Gulati, BH Hinrichs, et al.",
+    "journal": "The Journal of Clinical Investigation",
+    "journal_logo": "img/journals/jci.jpg",
+    "year": 2026,
+    "status": "published",
+    "citations": null,
+    "first_author": true,
+    "doi": "10.1172/JCI196284",
+    "url": "https://doi.org/10.1172/JCI196284"
+  },
+  {
+    "title": "Predicting chromatin organization from cell-free DNA fragmentation patterns",
+    "authors": "R Bandaru, Z Zhou, H Fu, W Wu, H Zheng, RS Hegde, L Wang, H Liu, et al.",
+    "journal": "Cancer Research",
+    "journal_logo": "img/journals/aacr.png",
+    "year": 2025,
+    "status": "poster",
+    "citations": null,
+    "first_author": true,
+    "doi": "10.1158/1538-7445.AM2025-3674",
+    "url": "https://doi.org/10.1158/1538-7445.AM2025-3674"
+  },
+  {
+    "title": "FinaleToolkit: accelerating cell-free DNA fragmentation analysis with a high-speed computational toolkit",
+    "authors": "JW Li, R Bandaru, K Baliga, Y Liu",
+    "journal": "Bioinformatics Advances",
+    "journal_logo": "img/journals/oup.png",
+    "year": 2025,
+    "status": "published",
+    "citations": 5,
+    "first_author": true,
+    "doi": "10.1093/bioadv/vbaf236",
+    "url": "https://doi.org/10.1093/bioadv/vbaf236"
+  },
+  {
+    "title": "Circulating cell-free DNA methylation profiles as noninvasive multiple sclerosis biomarkers: a proof-of-concept study",
+    "authors": "H Fu, K Huang, W Zhu, L Zhang, R Bandaru, S Venkatesh, E Walker, et al.",
+    "journal": "medRxiv",
+    "journal_logo": "img/journals/medrxiv.png",
+    "year": 2025,
+    "status": "preprint",
+    "citations": 2,
+    "first_author": false,
+    "doi": "10.1101/2025.02.14.25322180",
+    "url": "https://doi.org/10.1101/2025.02.14.25322180"
+  },
+  {
+    "title": "FinaleMe: predicting DNA methylation by the fragmentation patterns of plasma cell-free DNA",
+    "authors": "Y Liu, SC Reed, C Lo, AD Choudhury, HA Parsons, DG Stover, G Ha, R Bandaru, et al.",
+    "journal": "Nature Communications",
+    "journal_logo": "img/journals/nature.png",
+    "year": 2024,
+    "status": "published",
+    "citations": 24,
+    "first_author": false,
+    "doi": "10.1038/s41467-024-47196-6",
+    "url": "https://doi.org/10.1038/s41467-024-47196-6"
+  }
+]
